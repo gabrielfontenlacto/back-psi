@@ -1,4 +1,8 @@
-# APIS Challenge PSI
+# Challenge PSI
+
+## Iniciar el proyecto
+npm run dev ( Developer ) -  
+npm start ( Producción ) -
 
 ## Descripción General
 Esta API proporciona un conjunto de operaciones CRUD para la gestión de usuarios en una base de datos. Permite crear, leer, actualizar y eliminar información de usuarios, así como obtener usuarios según diferentes criterios de búsqueda.
