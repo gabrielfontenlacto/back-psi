@@ -2,12 +2,9 @@ import { config } from "dotenv";
 
 config();
 
-export const {
-  DB_PORT,
-  DB_HOST,
-  DB_USER,
-  DB_PASSWORD,
-  DB_NAME,
-  DB_DATABASE,
-  DB_PORTDATABASE,
-} = process.env;
+export const DB_PORT = process.env.PORT || 3001;
+export const DB_HOST = process.env.HOST || "localhost";
+export const DB_DATABASE = process.env.DATABASE || "psi";
+export const DB_PORTDATABASE = process.env.PORTDATABASE || 3306;
+export const DB_USER = process.env.DB_USER || "root";
+export const DB_PASSWORD = process.env.PASSWORD || "root1234";
